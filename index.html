@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="StyleSheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+<h3>TIC TAC TOE</h3>
+
+<div class = 'board'>
+<!-- 1st row verticaly centered text in the square columns -->
+<div class="cell  square img_1-1" id="s0" data-indx = "0" onClick="divClick(event)">
+</div>
+<div class="cell square img_1-2" id="s1" data-indx = "1" onClick="divClick(event)">
+</div>
+<div class="cell square img_1-3" id="s2" data-indx = "2" onClick="divClick(event)">
+</div>
+
+<!-- 2nd row verticaly centered images in square columns -->
+
+<div class="cell square img_2-1" id="s3" data-indx = "3" onClick="divClick(event)">
+</div>
+<div class="cell square img_2-2" id="s4" data-indx = "4" onClick="divClick(event)">
+</div>
+<div class="cell square img_2-3" id="s5" data-indx = "5" onClick="divClick(event)">
+</div>
+
+<!-- 3rd row responsive images in background with centered content -->
+
+<div class="cell square img_3-1" id="s6" data-indx = "6" onClick="divClick(event)">
+</div>
+<div class="cell square img_3-2" id="s7" data-indx = "7" onClick="divClick(event)">
+</div>
+<div class="cell square img_3-3" id="s8" data-indx = "8" onClick="divClick(event)">
+</div>
+
+<!-- END OF LAYOUT, following juts for the demo -->
+</div>
+<div id="bottom">
+    <p><span>DIRECTIONS:</span><br/>Start by<br>using the left and right <span>ARROW</span> keys<br>to navigate through the Squares.<br>
+    Hit the <span>ENTER</span> key to select a square.<br>Alternatively, one may simply click the squares.</p>   
+</div>
+<div id="Won"><p>THE MACHINE HAS WON!</p></div>
+<div id="Draw"><p >IT IS A DRAW!</p></div>
+<div id="Restart"><a href="javascript:window.location.reload();">PLAY AGAIN</a></div>
+<div id="Finals">
+</div>
+<!-- END OF LAYOUT, following juts for the demo -->
+<script src = "scripts/ui.js"></script>
+<script src = "scripts/game.js"></script>
+<script src = "scripts/ai.js"></script>
+<script src = "scripts/control.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
